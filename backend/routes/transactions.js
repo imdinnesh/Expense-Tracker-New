@@ -1,4 +1,5 @@
-const router=require('express').Router()
+const express=require('express');
+const router=express.Router();
 const {addIncome,getIncomes,deleteIncome}=require('../controllers/income.js')
 const {addExpense,getExpense,deleteExpense}=require('../controllers/expense.js')
 

@@ -79,6 +79,7 @@ const IncomeStyled=styled.div`
         .incomes{
             flex: 1;
         }
+    }
 
 
 `;
